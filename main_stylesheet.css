@@ -1,0 +1,55 @@
+body {
+	font-family: 'Comforter', cursive;
+	background-color:rgb(190, 226, 214);
+	margin:0 auto;
+	width:960px;
+	font-size:18px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+a:link {
+	color:red;
+	background-color:rgb(190, 226, 214);
+}
+a:visited {
+	color:purple;
+	background-color:rgb(190, 226, 214);
+}
+a:hover {
+	color:blue;
+	background-color:black;
+}
+
+nav ul {
+	text-align:center;
+	font-size:250%;
+	text-decoration:none;
+}
+nav li {
+	color:rgb(197, 226, 117);
+}
+.poembody {
+	text-align:justify;
+	font-size: 200%;
+	color:rgb(175, 124, 143);
+}
+h2 {
+	font-size:300%;
+	color:black;
+}
+.photoleft {
+	float:left;
+}
+.photoright {
+    float:right;
+}
+
+	 
+	
+
+	

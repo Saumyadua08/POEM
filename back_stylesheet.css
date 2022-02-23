@@ -1,0 +1,28 @@
+body {
+	font-family: 'Comforter', cursive;
+	background-color:rgb(173,199,197);
+	margin:0 auto;
+	width:960px;
+	font-size:18px;
+}
+.headings {
+	text-align:center;
+	color:rgb(65,52,77);
+	font-size:400%;
+}
+.poemclass {
+	text-align:justify;
+	text-align:center;
+	color:rgb(96,66,99);
+	font-size:150%;
+}
+.photoleft {
+	float:left;
+	height:20%;
+	width:20%;
+}
+.photoright {
+    float:right;
+	height:20%;
+	width:20%;
+}
