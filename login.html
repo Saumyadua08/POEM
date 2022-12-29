@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title id="login"> Saumya's Anthology </title>
+    <h1 style="text-align:center; color:rgb(196,177,211); font-size:500%;"> Blah Blah </h1>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+    <link href="main_stylesheet.css" rel="Stylesheet" type="text/css" />
+    <style>
+        .formdesign {
+            font-size: 40px;
+        }
+
+        .formdesign input {
+            width: 30%;
+            padding: 10px 10px;
+            border-width: 3px;
+            border-color: rgb(166, 136, 172);
+        }
+
+        .err {
+            font-size: 10px;
+            font-style: normal;
+            font-family: 'Times New Roman', Times, serif;
+            color: red;
+        }
+
+        .buttonn {
+            font-size: 20px;
+            border-width: 3px;
+            height: 50px;
+            width: 120px;
+            margin: 20px 20px;
+            border-radius: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form name="loginform"  method="post">
+        <div class="formdesign" id="name" >
+            Your name : <input type="text" name="fname" required><span class="err"></span>
+        </div>
+
+        <div class="formdesign" id="mail" >
+            Your mail : <input type="email" name="fmail" required><span class="err"></span>
+        </div>
+
+        <div class="formdesign" id="number" >
+            Contact number : <input type="phone" name="fnum"><span class="err"></span>
+        </div>
+
+        <div class="formdesign" id="pass" >
+            Choose your password : <input type="text" name="fpass" required><span class="err"></span>
+        </div>
+
+        <div class="formdesign" id="cpass" >
+            Confirm your password : <input type="text" name="fcpass" required><span class="err"></span>
+        </div>
+        <br>
+        <br>
+
+        <input class="buttonn" type="button" value="SIGN UP!" onclick="validateForm()">
+    </form>
+
+
+    <!--Best to use js tag in the end of the body-->
+    <script src="login.js">
+
+    </script>
+</body>
